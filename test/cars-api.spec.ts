@@ -123,4 +123,4 @@ describe("GET /cars/value/:id", () => {
     expect(response.status).toBe(404);
     expect(response.body).toEqual({ error: "Car not found" });
   });
-});
+}); //Happy days

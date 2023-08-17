@@ -6,9 +6,10 @@ function estCarValue(make: string, year: number) {
       (sum, alphabets) => sum + alphabets.charCodeAt(0) - "A".charCodeAt(0) + 1,
       0
     );
-  //   if (typeof year !== "number") {
-  //     return { error: "Wrong data type" };
-  //   }
+
+  if (year > 2023) {
+    return { error: "Year cannot be greater than 2023" };
+  }
   if (year < 0) {
     return { error: "Negative year" };
   }

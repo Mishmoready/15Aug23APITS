@@ -1,6 +1,9 @@
 import { Car } from "./carList";
 
+// A sample dataset containing details of various cars including make and year.
+// This data represents normal scenarios, edge cases (such as negative year), and special cases.
 let cars: Car[] = [
+  // Standard car entries with valid make and year.
   {
     id: 1,
     make: "Civic",
@@ -26,11 +29,13 @@ let cars: Car[] = [
     make: "Land Rover Range Rover Evoque 2.0 TD4 E-Capability 4x4 HSE Dynamic",
     year: 2007,
   },
+  // Edge Case: A car with a negative year.
   {
     id: 6,
     make: "Task-Force",
     year: -987,
   },
+  // Special Case: A car with a year value greater than the current year.
   {
     id: 7,
     make: "C200",

@@ -1,10 +1,19 @@
 # 15Aug23APITS
 
 ## Table of Contents
-## Table of Contents
-- [Task 1: General API Endpoints](#task-1-general-api-endpoints)
-- [Task 2: Cars Value API Endpoint Tests](#task-2-cars-value-api-endpoint-tests)
-- [Task 3: Additional Information](#task-3-additional-information)
+- [Mission 1 Report for Moses Cook](#mission-1-report-for-moses-cook)
+  - [Task 1: Identify Stakeholders](#task-1-identify-stakeholders)
+    - [Tech related](#one-of-the-main-collaborators-in-relation-to-the-project-would-be-the-partnership-in-the-technology-sector-they-are-broken-down-into)
+  - [Task 2: Understand Context of a Project](#task-2-understand-context-of-a-project)
+    - [Questions](#questions)
+  - [Task 3: Familiarize with Tool for Task Management](#task-3-familiarize-with-tool-for-task-management)
+  - [Task 4: Learn about Test-Driven Development](#task-4-learn-about-test-driven-development)
+  - [Task 5: Create Test Cases](#task-5-create-test-cases)
+    - [Test Cases](#test-cases)
+    - [Conclusion](#conclusion)
+  - [Report: Cars API Endpoint Tests](#report-cars-api-endpoint-tests)
+    - [Test Suite 1: General API Endpoints](#test-suite-1-general-api-endpoints)
+    - [Test Suite 2: Cars Value API Endpoint Tests](#test-suite-2-cars-value-api-endpoint-tests)
 
 # Mission 1 Report for Moses Cook
 
@@ -185,9 +194,5 @@ This report describes the objectives and expected outcomes of the test cases in 
    - **Status:** To be determined by test run.
 
 This report describes the objectives and expected outcomes of the test cases in the provided code. The status of each test case will be determined when the tests are run. If you're looking for a more detailed report with actual test results, you would need to run the tests and capture the results, possibly using a reporting tool compatible with Jest.
-
-...
-
-#### Test Suite 2: Cars Value API Endpoint Tests
 
 ...

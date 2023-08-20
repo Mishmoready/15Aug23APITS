@@ -127,9 +127,58 @@ Creating test cases requires clear comprehension of the system, strategic planni
 This report describes the objectives and expected outcomes of the test cases in the provided code. The status of each test case will be determined when the tests are run. If you're looking for a more detailed report with actual test results, you would need to run the tests and capture the results, possibly using a reporting tool compatible with Jest.
 ...
 
-### Report: Cars API Endpoint Tests
+## Report: Cars API Endpoint Tests
 
-#### Test Suite 1: General API Endpoints
+### Test Suite 1: General API Endpoints
+
+1. **Root Endpoint: GET /**
+   - **Objective:** Test if the root endpoint returns the expected greeting.
+   - **Expected Result:** "Hello World!"
+   - **Status:** To be determined by test run.
+
+2. **Cars List: GET /cars**
+   - **Objective:** Test if the endpoint returns the correct number of cars.
+   - **Expected Result:** List of 7 cars.
+   - **Status:** To be determined by test run.
+
+3. **Car Values: GET /cars/:Value**
+   - **Objective:** Test if the endpoint returns the expected car values.
+   - **Expected Result:** List of car values and an error for negative year.
+   - **Status:** To be determined by test run.
+
+### Test Suite 2: Cars Value API Endpoint Tests
+
+1. **Sunny Day Scenario: GET /cars/value/Civic/2020**
+   - **Objective:** Test if the endpoint returns the correct value for a Civic 2020.
+   - **Expected Result:** {"Car Value": "$2520"}.
+   - **Status:** To be determined by test run.
+
+2. **Numbers Only Test: GET /cars/value/911/2020**
+   - **Objective:** Test if the endpoint handles numbers only.
+   - **Expected Result:** {"Car Value": "$2320"}.
+   - **Status:** To be determined by test run.
+
+3. **Negative Year Test: GET /cars/value/Task-Force/-987**
+   - **Objective:** Test if the endpoint handles a negative year.
+   - **Expected Result:** {"error": "Negative year"}.
+   - **Status:** To be determined by test run.
+
+4. **Comprehension Test**
+   - **Objective:** Test for a complex query with a detailed car model and year.
+   - **Expected Result:** {"Car Value": "$8607"}.
+   - **Status:** To be determined by test run.
+
+5. **Wrong Data Type Test: GET /cars/value/C200/twenty%20twenty**
+   - **Objective:** Test if the endpoint handles incorrect data types.
+   - **Expected Result:** {"error": "Wrong data type"}.
+   - **Status:** To be determined by test run.
+
+6. **Additional Numbers Only Tests**
+   - **Objective:** Test specific scenarios with numbers only in car models.
+   - **Expected Results:** Various, depending on the car model and year.
+   - **Status:** To be determined by test run.
+
+This report describes the objectives and expected outcomes of the test cases in the provided code. The status of each test case will be determined when the tests are run. If you're looking for a more detailed report with actual test results, you would need to run the tests and capture the results, possibly using a reporting tool compatible with Jest.
 
 ...
 

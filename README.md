@@ -1,5 +1,11 @@
 # 15Aug23APITS
 
+## Table of Contents
+## Table of Contents
+- [Task 1: General API Endpoints](#task-1-general-api-endpoints)
+- [Task 2: Cars Value API Endpoint Tests](#task-2-cars-value-api-endpoint-tests)
+- [Task 3: Additional Information](#task-3-additional-information)
+
 # Mission 1 Report for Moses Cook
 
 ## Task 1: Identify Stakeholders
